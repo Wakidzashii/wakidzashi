@@ -1,0 +1,265 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html {
+	min-width: 800px;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+html {
+	min-width: 800px;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #333;
+	background-color: #fff;
+}
+
+.header,
+.content-wrapper,
+.container,
+.content,
+.footer {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+}
+
+.content-wrapper {
+	margin: 0 auto;
+	flex-direction: column;
+	height: 100%;
+	min-width: 1024px;
+	max-width: 1920px;
+}
+
+.header {
+	height: 100px;
+	background: #ffffff;
+	box-shadow: 0px 4px 12px rgba(18, 33, 63, 0.05);
+	-webkit-box-flex: 0;
+	-webkit-flex: none;
+	-ms-flex: none;
+	flex: none;
+	margin-bottom: 160px;
+}
+
+.container {
+	margin: 10px 39.99px 26px 39.99px;
+	display: flex;
+	width: 100%;
+	height: 65%;
+}
+.logo {
+	width: 114px;
+	background-image: url('../img/wezom_logo.svg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin-right: 96.02px;
+}
+.menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 75%;
+}
+
+.top_menu li {
+	display: inline;
+	color: #7b94b0;
+	font-size: 14px;
+}
+
+.bottom_menu li a:hover {
+	border-bottom: 2px solid rgb(39, 7, 129);
+}
+.bottom_menu li {
+	display: inline;
+	color: #202454;
+	font-size: 18px;
+	font-weight: 700;
+	margin-right: 40px;
+}
+
+.settings {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 120px;
+}
+
+.lang {
+	display: flex;
+	margin-bottom: 24.6px;
+}
+
+.lang li {
+	display: inline;
+	color: #7b94b0;
+	font-size: 12px;
+	margin-right: 10px;
+}
+
+.lang li:last-child {
+	margin-right: 0px;
+}
+
+.about_account {
+	display: flex;
+}
+.header__options {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: 10px 39.99px 24px 39.99px;
+}
+
+.header__options li {
+	display: inline;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #7b94b0;
+}
+
+.header__options a {
+	padding: 4px;
+}
+
+.header__options a:hover {
+	background: #f4f5f8;
+	border-radius: 3px;
+}
+
+.language__option {
+	margin-bottom: 23.4px;
+}
+
+.account__data {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	width: 120px;
+	height: 31px;
+}
+
+.user {
+	width: 26px;
+	height: 24px;
+	background: url('../img/account.svg') 50% no-repeat;
+}
+
+.heart {
+	width: 28px;
+	height: 27px;
+	background: url('../img/heart.svg') 50% no-repeat;
+}
+
+.bucket {
+	width: 33px;
+	height: 33px;
+	background: url('../img/basket.svg') 50% no-repeat;
+}
+
+.busket_value {
+	border-radius: 50%;
+	background: #e77e42;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: -10px;
+	display: flex;
+	top: -5px;
+	justify-content: center;
+	align-items: center;
+}
