@@ -2,6 +2,7 @@
 	background: rgba(2, 108, 0, 0.5);
 	height: 180px;
 	min-width: 1024px;
+	margin-top: 180px;
 }
 
 .footer_dog_row {
@@ -107,15 +108,9 @@
 }
 
 .copywriting__row {
+	
 	display: flex;
 	justify-content: center;
-	align-items: flex-end;
-	width: 100%;
+	color: rgba(255, 255, 255, 0.2);
 }
 
-.copywryting__text ul {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-}
