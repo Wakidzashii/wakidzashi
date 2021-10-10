@@ -45,7 +45,7 @@
 						<button class="heart"></button>
 						<button class="bucket"></button>
 						
-							<div class="busket_value"> 0</div>
+							<div class="busket_value">0</div>
 						
 					</div>
 				</div>
@@ -53,7 +53,7 @@
         </header>
 
         <div class="container clearfix">
-            <main class="content">
+            <div class="content">
                 <div class="square">
                     <div class="buttom_twice">
                     
@@ -233,7 +233,7 @@
                       </div>
                   </div>
                 </div>
-            </main>
+              </div>
         </div>
         <div class="footer_dog">
           <div class="footer_dog_row">
@@ -293,12 +293,8 @@
                     <div class="copywriting">
                         <div class="copywriting__container container">
                             <div class="copywriting__row">
-                                <nav class="copywryting__text">
-                                    <ul>
-                                        <li>© 2021 Тестовое задание</li>
-                                        <li>Разработано в WEZOM</li>
-                                    </ul>
-                                </nav>
+                                 <div>© 2021 Тестовое задание</div> 
+                                 <div >  Разработано в WEZOM</div> 
                             </div>
                         </div>
                     </div>
@@ -307,19 +303,25 @@
         </footer>
     </div>
     </div>  
-    <script>anchors = document.querySelectorAll('a[href*="#"]')
+    
+   
+    <script >const anchors = document.querySelectorAll('a[href*="#"]')
 
-for (let anchor of anchors) {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault()
+      for (let anchor of anchors) {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault()
+          
+          const blockID = anchor.getAttribute('href').substr(1)
+          
+          document.getElementById(blockID).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          })
+        })
+      }</script> 
+    
 
-    const blockID = anchor.getAttribute('href').substr(1)
 
-    document.getElementById(blockID).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    })
-  })
-}</script> 
+
 </body>
 </html>
