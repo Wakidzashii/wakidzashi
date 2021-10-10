@@ -6,13 +6,16 @@
 }
 .content {
 	margin: 0 auto;
-	max-width: 1420px;
+	min-width: 1020px;
+	max-width: 1920px;
+
 	height: 472px;
 	margin-bottom: 100px;
 	margin-left: 100px;
 
 }
 .square {
+	
 	position: relative;
 	width: 260px;
 	height: 260px;
@@ -168,6 +171,9 @@
 	border-radius: 20px;
 	background: url('../img/Frame.svg') 50% no-repeat;
 }
+
+
+
 .text_price_one {
 	position: absolute;
 	left: 16%;
