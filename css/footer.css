@@ -32,6 +32,8 @@
 	font-size: 24px;
 	margin-bottom: 12px;
 }
+
+
 .register__btn {
 	background-color: #e77e42;
 	border-radius: 3px;
@@ -40,8 +42,13 @@
 	font-size: 16px;
 	font-weight: 700;
 	padding: 14px 32px 14px 32px;
+	box-shadow: 0 0 40px 40px  #e77e42 inset, 0 0 0 0  #e77e42;
+	-webkit-transition: all 150ms ease-in-out;
+	transition: all 150ms ease-in-out;
 }
-
+.register__btn:hover {
+	box-shadow: 0 0 10px 0   #f1451a, 0 0 10px 4px  #ce401c;
+  }
 .footer {
 	flex: 0 0 auto;
 	min-width: 1024px;
@@ -49,6 +56,13 @@
 	background-color: #245420;
 	color: #fff;
 }
+
+
+.footer__row li:hover {
+	border-radius: 4px;
+	background-color: rgba(27, 124, 48, 0.5);
+}
+
 
 .footer__row {
 	display: flex;
@@ -101,16 +115,20 @@
 	background: rgba(255, 255, 255, 0.2) url('../img/slider.svg') 50% no-repeat;
 }
 
+
 .copywriting {
 	height: 15px;
 	width: 80%;
 	border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.copywriting__row {
-	
+  }
+  
+  .copywriting__container {
+	width: 100%;
+  }
+  
+  .copywriting__row {
+	width: 100%;
 	display: flex;
-	justify-content: center;
-	color: rgba(255, 255, 255, 0.2);
-}
+	justify-content: space-between;
+  }
 
