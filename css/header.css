@@ -162,7 +162,13 @@ body {
 	margin-right: 16px;
 }
 .top_menu li:hover {
-	border-bottom: 2px solid rgb(39, 7, 129);
+	padding: 2px;
+	border-radius: 8px;
+	transition: 0.5s linear;
+}
+.top_menu li:hover {
+	background-color: rgb(58, 154, 209,0.5);
+	color: rgb(255, 255, 255);
 }
 
 .bottom_menu li a:hover {
