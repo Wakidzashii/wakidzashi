@@ -1,0 +1,36 @@
+html,
+body {
+  display: block;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 1340px;
+  height: 472px;
+}
+
+.swiper-slide {
+  display: flex;
+ 
+  
+}
+.swiper-pagination{
+height: 180px;
+color: rgb(13, 68, 54);
+}
+.swiper-button-prev,
+.swiper-button-next{
+  width: 6px;
+  height: 12px;
+margin-left: 8%;
+margin-right:8% ;
+color: rgb(58, 19, 19);
+}
